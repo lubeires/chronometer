@@ -1,0 +1,49 @@
+* {
+    font-family: monospace;
+
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 15%;
+}
+
+button {
+    text-transform: uppercase;
+    font-size: 25px;
+    
+    padding: 15px 30px;
+    margin: 10px;
+
+    color: whitesmoke;
+
+    border: none;
+    border-radius: 7px;
+
+    opacity: 1;
+}
+
+#start {
+    background-color: darkolivegreen;
+}
+
+#pause {
+    background-color: darkorange;
+}
+
+#reset {
+    background-color: rgb(195, 0, 0);
+}
+
+button:hover,
+button:disabled {
+    opacity: .6;
+}
+
+#chronometer {
+    font-size: 70px;
+    color: whitesmoke;
+}
